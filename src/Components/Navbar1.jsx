@@ -48,7 +48,8 @@ const Navbar1 = () => {
           </Col>
           <Col md="1">
             <div>
-              <img src={square} alt="" className="midnavimg1" />
+            <NavLink to="/"> <img src={square} alt="" className="midnavimg1" /></NavLink>
+             
             </div>
           </Col>
         </nav>
